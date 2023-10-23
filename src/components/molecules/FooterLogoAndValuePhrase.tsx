@@ -27,7 +27,7 @@ const FooterLogoAndValuePhrase: React.FC<
           title="Company"
           className="inline-flex items-center"
         >
-          <Img src={LOGO_PIC} className="h-16 aspect-square" alt="" />
+          <Img src={LOGO_PIC || '/logo.png'} className="h-16 aspect-square" alt="" />
         </a>
         <div className="mt-6 lg:max-w-sm">
           <p className="text-sm text-white">{value_phrase}.</p>

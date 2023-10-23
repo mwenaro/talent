@@ -7,7 +7,7 @@ interface SiteCopyRightProps {
 
 const SiteCopyRight: React.FC<PropsWithChildren<SiteCopyRightProps>> = ({
   children,
-  company = 'techbysj',
+  company = 'talentflow Institute',
   className,
 }) => (
   <div

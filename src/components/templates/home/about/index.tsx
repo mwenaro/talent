@@ -12,7 +12,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ imageUrl }) => {
         About us
       </SectionTitle>
       <Typography variant="p" className="text-lg max-w-[1000px] mx-auto  mb-4">
-        TechBySJ Empowerment Organization is a non-profit organization dedicated
+        TalentFlow is a non-profit organization dedicated
         to empowering individuals, Schools and Corprates through technology. We
         believe that access to technology and digital literacy skills are
         essential for personal and professional growth in the modern world. Our

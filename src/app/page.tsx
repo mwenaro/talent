@@ -1,8 +1,11 @@
 import {
+  AboutSection,
   AuthNav,
+  CoursesSection,
   CreateStoreSection,
   FAQSection,
   FlexibleSection,
+  Footer,
   HeroSection,
   LinkBioSection,
   LinkWhatsappSection,
@@ -10,6 +13,7 @@ import {
   MyMarquee,
   OurPartnersSection,
   PricingSection,
+  RegistrationForm,
   SaveTimeSection,
   SecondaryCTASection,
   SectionTemplate,
@@ -20,25 +24,25 @@ import Carousel from "@/components/organisms/Carousel";
 import { GALLARY_IMAGES } from "./assets/images";
 
 export default function Home() {
-
- 
   return (
-    <div className="w-full flex flex-col  max-w-7xl mx-auto">
+    <div className="w-full flex flex-col  max-w-7xl mx-auto ">
       <VendorHeader logoImageSrc={"/big-logo.png"}>
         <ul className="flex"></ul>
         {/* <AuthNav /> */}
       </VendorHeader>
 
-      <main className="w-full mt-24 flex flex-col justify-center items-center">
+      <main className="w-full px-6 mt-24 flex flex-col justify-center items-center">
         {/* hero */}
         <MyMarquee>
           Hurry Up {new Date().toLocaleString("en-EN", { month: "long" })}{" "}
           intake is on-going
         </MyMarquee>
         <div className="w-full">
-        <Carousel images={GALLARY_IMAGES}  />
-
+          <Carousel images={GALLARY_IMAGES} />
         </div>
+        <AboutSection imageUrl="/assets/images/about.jpg" />
+        <CoursesSection />
+        <RegistrationForm />
 
         {/* <HeroSection /> */}
 
@@ -97,6 +101,7 @@ export default function Home() {
         {/* SecondaryCTA */}
         {/* <SecondaryCTASection /> */}
       </main>
+      <Footer />
     </div>
   );
 }
