@@ -7,3 +7,5 @@ export { default as SectionSubTitle } from './SectionSubTitle';
 export { default as PageWrapper } from './PageWrapper';
 
 export { default as BannerImage} from './BannerImage';
+export {default as MyMarquee} from './my-marquee'
+

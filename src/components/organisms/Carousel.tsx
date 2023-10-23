@@ -3,9 +3,10 @@ import { useCallback, useEffect, useState } from "react";
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { Img } from "..";
+import { TImage } from "@/types";
 
 interface CarouselProps {
-  images: { id: string; src: string; alt: string }[];
+  images: TImage[];
 }
 
 export default function Carousel({ images }: CarouselProps) {

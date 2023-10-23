@@ -62,3 +62,8 @@ export interface Activation {
   accountId: string;
   createdAt: Date;
 }
+export type TImage = {
+  alt:string,
+  id:string|number,
+  src:string
+}

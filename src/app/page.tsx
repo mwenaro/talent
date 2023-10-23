@@ -7,24 +7,40 @@ import {
   LinkBioSection,
   LinkWhatsappSection,
   ManageOrdersSection,
+  MyMarquee,
   OurPartnersSection,
   PricingSection,
   SaveTimeSection,
   SecondaryCTASection,
   SectionTemplate,
+  Typography,
   VendorHeader,
 } from "@/components";
+import Carousel from "@/components/organisms/Carousel";
+import { GALLARY_IMAGES } from "./assets/images";
 
 export default function Home() {
+
+ 
   return (
     <div className="w-full flex flex-col  max-w-7xl mx-auto">
-      <VendorHeader logoImageSrc={"/assets/logo-default.png"}>
-        <AuthNav />
+      <VendorHeader logoImageSrc={"/big-logo.png"}>
+        <ul className="flex"></ul>
+        {/* <AuthNav /> */}
       </VendorHeader>
 
-      <main className="w-full mt-24 px-10 md:px-24 flex flex-col justify-center items-center">
+      <main className="w-full mt-24 flex flex-col justify-center items-center">
         {/* hero */}
-        <HeroSection />
+        <MyMarquee>
+          Hurry Up {new Date().toLocaleString("en-EN", { month: "long" })}{" "}
+          intake is on-going
+        </MyMarquee>
+        <div className="w-full">
+        <Carousel images={GALLARY_IMAGES}  />
+
+        </div>
+
+        {/* <HeroSection /> */}
 
         {/*savetime  */}
         {/* <SaveTimeSection /> */}
@@ -76,7 +92,7 @@ export default function Home() {
         {/* <PricingSection /> */}
 
         {/* FAQ */}
-        <FAQSection />
+        {/* <FAQSection /> */}
 
         {/* SecondaryCTA */}
         {/* <SecondaryCTASection /> */}

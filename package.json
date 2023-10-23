@@ -37,6 +37,7 @@
     "react-dom": "18.2.0",
     "react-dropzone": "^14.2.3",
     "react-easy-swipe": "^0.0.23",
+    "react-fast-marquee": "^1.6.2",
     "react-icons": "^4.10.1",
     "react-scroll": "^1.8.9",
     "react-share": "^4.4.1",

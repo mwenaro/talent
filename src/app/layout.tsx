@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: "Odasasa ",
-  description: "Odasasa official website",
+  title: "Talentflow Institute",
+  description: "Talentflow Institute official website",
   icons: [
     {
       rel: "icon",
