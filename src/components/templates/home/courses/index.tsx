@@ -19,7 +19,7 @@ const CoursesSection: React.FC<CoursesSectionProps> = ({
         <span className="underline decoration-blue-500">Courses</span>
       </SectionTitle>
       <Typography variant={'h4'} className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-        Our courses are set to start on 12th June. To enroll click on the forward
+        Our courses are set to start on 12th November. To enroll click on the forward
         arrow on the course you wish to enroll for here.
       </Typography>
       <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-6 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
