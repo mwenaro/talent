@@ -1,7 +1,9 @@
 "use client"
+import { GALLARY_IMAGES } from '@/app/assets/images';
+import { TImage } from '@/types';
 import { motion } from 'framer-motion';
-import { Image } from '@/types';
-import { GALLARY_IMAGES } from '@/assets/images';
+
+
 
 const Gallery2: React.FC = () => {
   const imgPath = '/assets/images/16x9/';
@@ -16,11 +18,11 @@ const Gallery2: React.FC = () => {
 
 
           {
-            GALLARY_IMAGES.sort(()=>Math.random()*0.5).map((pic: Image) =>
+            GALLARY_IMAGES.sort(()=>Math.random()*0.5).map((pic: TImage) =>
               <motion.img
-              key={pic.src}
+              key={pic.id}
                 src={pic.src}
-                alt={pic.des}
+                alt={pic.alt}
                 className="rounded-lg w-full aspect-auto overflow-hidden"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}

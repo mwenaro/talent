@@ -67,3 +67,10 @@ export type TImage = {
   id:string|number,
   src:string
 }
+
+export interface Service {
+  title: string;
+  icon: React.ReactNode;
+  description: string;
+}
+export interface Course extends Service {};

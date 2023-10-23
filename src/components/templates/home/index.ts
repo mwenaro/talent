@@ -13,3 +13,6 @@ export {default as SecondaryCTASection} from './SecondaryCTASection'
 
 // rtial
 export {default as SectionTemplate} from './SectionTemplate'
+export {default as AboutSection} from './about'
+export {default as CoursesSection} from './courses'
+export {default as RegistrationForm} from './course_registration'
