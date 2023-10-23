@@ -1,6 +1,5 @@
+import { Typography } from '@/components';
 import { ReactNode } from 'react';
-import { Icon, Typography } from '../../atoms';
-
 interface MissionProps {
   title: string;
   icon?: ReactNode | string;
