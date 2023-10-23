@@ -1,4 +1,4 @@
-import { strCapitalize } from '@/utlis';
+import { strCapitalize } from '@/utils';
 import { COMPANY_NAME } from '.';
 
 export const OUR_SERVICES = [
