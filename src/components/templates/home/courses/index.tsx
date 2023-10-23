@@ -12,13 +12,13 @@ const CoursesSection: React.FC<CoursesSectionProps> = ({
   children,
   courses = OUR_COURSES
 }) => (
-  <SectionWrapper sectionId="courses" className="bg-blue-50 ">
-    <div className="container px-6 py-4 mx-auto">
-      <SectionTitle className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+  <SectionWrapper sectionId="courses" className="bg-blue-100 pt-4 ">
+    <div className="container px-3 py-4 mx-auto">
+      <SectionTitle className="text-2xl font-semibold text-skin-accent capitalize lg:text-3xl dark:text-white">
         explore our <br /> awesome{' '}
         <span className="underline decoration-blue-500">Courses</span>
       </SectionTitle>
-      <Typography variant={'h4'} className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
+      <Typography variant={'h4'} className="mt-4 text-orange-300 xl:mt-6 dark:text-gray-300">
         Our courses are set to start on 12th November. To enroll click on the forward
         arrow on the course you wish to enroll for here.
       </Typography>

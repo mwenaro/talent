@@ -16,7 +16,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
   description,
 }) => {
   return (
-    <div className="max-w-md mx-auto text-center">
+    <div className="max-w-md mx-auto text-center shadow-lg bg-slate-100 p-2 rounded-md">
       <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 mx-auto sm:w-24 sm:h-24">
         {typeof icon == 'string' ? <Icon variant={icon as any} /> : icon}
       </div>
