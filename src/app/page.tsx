@@ -27,7 +27,9 @@ export default function Home() {
   return (
     <div className="w-full flex flex-col  max-w-7xl mx-auto ">
       <VendorHeader logoImageSrc={"/big-logo.png"}>
-        <ul className="flex"></ul>
+        <ul className="flex">
+          
+        </ul>
         {/* <AuthNav /> */}
       </VendorHeader>
 
